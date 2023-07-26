@@ -1,0 +1,342 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Butterfly+Kids&family=Fuzzy+Bubbles:wght@700&family=Nanum+Myeongjo&family=Rubik+Bubbles&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.nav-link{
+   
+/* font-family: 'Dosis', sans-serif; */
+font-weight: bold;
+/* margin-left: 22px; */
+color: #0d6785;
+}
+.navbar-light .navbar-nav .nav-link {
+    color: #0d6785;
+}
+.navbar-light .navbar-brand {
+    color: #0d6785;
+    font-weight: bold;
+}
+.ms-auto{
+    /* margin-left: 565px !important; */
+}
+.my-4{
+    margin-top: 3.3rem !important;
+}
+body{
+    font-family: 'Nanum Myeongjo', serif;
+}
+.carousel-item img{
+    width: 100%;
+    height: 93vh;
+}
+.carousel-caption{
+    bottom: 11.25rem;
+}
+.carousel-caption p{
+    font-size: 2.25rem;
+    
+    color: #494c4d;
+}
+ .carousel-caption .h5, h5{
+    
+  color: #0d6785;
+font-family: 'Nanum Myeongjo', serif;
+font-size: 1.25rem;
+font-weight: bold;
+}
+.slide2{
+    margin-left:  495px;
+}
+.slide3{
+    margin-left:  -290px;
+}
+ .slide3 .h5,h5{
+    color: #0d6785;
+}
+.slide3 p{
+    color:#383b3b;
+   
+} 
+p{
+    color: #0d6785;
+}
+
+.btn-outline-primary{
+    border-color: #0d6785;
+    color: #0d6785;
+    font-family:  'Dosis', sans-serif;
+    font-weight: bold;
+}
+.btn-outline-primary:hover{
+    background-color: #0d6785;
+    border-color: #0d6785;
+}
+.btn-outline-secondry{
+    border-color: #494c4d;
+    color: #494c4d;
+    font-family:  'Dosis', sans-serif;
+    font-weight: bold;
+        
+}
+.btn-outline-secondry:hover{
+    background-color: #494c4d;
+    border-color: #494c4d;
+}
+.card{
+    margin-top: 135px;
+    box-shadow: ;
+}
+.container{
+    margin-left: 49px;
+    margin-top: 60px;
+}
+.about{
+    margin-top: 299px;
+    margin-left: 299px;
+}
+.my-5{
+    margin-top: 15rem !important;
+    /* font-family: 'Dosis', sans-serif; */
+    
+    font-weight: bold;
+}
+.about-img{
+    max-width: 100%;
+    max-height: 400px;
+}
+.about-h3{
+    color: #9ec1a2;
+    font-size: 20px;
+    margin-bottom: 13px;
+}
+.about-h4{
+ font-size: 32px;
+ color: #0d6785;
+ margin-bottom: 32px;
+}
+.about-p{
+    font-size: 18px;
+    font-weight: 100;
+    color: #5d6163;
+}
+hr{
+    margin-top: 3px;
+}
+.about-span{
+    font-size: 23px;
+    color: #0d6785;
+    
+}
+.about-span2{
+    font-size: 14px;
+    color: #667c69;
+   
+    margin-left: 17px;
+}
+.display-4{
+    font-size: 2.5rem;
+    color: #0d6785;
+}
+.services-h1{
+    color: #0d6785;
+
+}
+.services-h3{
+    color: #0d6785;
+    font-family: 'Dosis',sans-serif;
+    margin-bottom: 23px;
+    font-weight: bold;
+}
+.service-icons{
+    font-size: 50px;
+    margin-bottom: 36px;
+    margin-top: 27PX;
+    color: #0d6785;
+}
+.services-p{
+    color: #0d6785;
+    font-family: 'Nanum Myeongjo', serif;
+}
+.services{
+    margin-top: 123px;
+}
+footer{
+    background-color: #0d6785;
+    margin-top: 71px;
+}
+.text-warning{
+    color: whitesmoke !important;
+}
+.footer-p{
+    color: whitesmoke;
+
+}
+.bg-primary{
+    background-color: #0d6785 !important;
+}
+.text-white{
+    color: whitesmoke !important;
+    font-family: 'Nanum Myeongjo', serif;
+}
+
+
+ /* .nav-link{
+    transition: all 0.2s;
+    position: relative;
+}
+
+
+.nav-link:hover{
+  
+    border-bottom: 2px solid black;
+} 
+.nav-link::after{
+    transition: all 0.2s;
+    opacity: 0;
+    height: 2px;
+    width: 100%;
+    background-color:black;
+    position: absolute;
+    bottom: 0;
+    left: 
+    ;
+}  
+.nav-link:hover::after{
+    content: '';
+    opacity: 1; 
+
+}   */
+
+/* Responsive Css */
+/* // X-Small devices (portrait phones, less than 576px) */
+/* // No media query for `xs` since this is the default in Bootstrap */
+
+/* // Small devices (landscape phones, 576px and up) */
+@media only screen and (min-width: 375px)
+{ .carousel-caption {
+    bottom: 12.25rem;
+}
+.carousel-caption p{
+    font-size: 1.25rem;
+    font-weight: bold;
+}
+.carousel-caption .h5, h5{
+  font-size: 15px;
+  }
+  .slide2{
+    margin-left:  61px;
+}
+.slide3{
+    margin-left:  -133px;
+}
+.btn{
+    font-weight: 700;
+}
+.container{
+    margin-left: -1px;
+}}
+@media only screen and (min-width: 375px) and (orientation: landscape)
+{.carousel-caption {
+    bottom: 3.25rem;
+}
+.slide2{
+    margin-left:  264px;
+}
+.slide3{
+    margin-left:  -272px;
+}
+
+}
+@media only screen and (min-width: 414px){
+    .carousel-caption {
+        bottom: 14.25rem;
+    }
+    .carousel-caption p{
+        font-size: 1.25rem;
+        font-weight: bold;
+    }
+    .carousel-caption .h5, h5{
+      font-size: 15px;
+      }
+      .slide2{
+        margin-left:  87px;
+    }
+    .slide3{
+        margin-left:  -133px;
+    }
+    .btn{
+        font-weight: 700;
+    }
+    .container{
+        margin-left: -1px;
+    }
+    .carousel-item img {
+        width: 100%;
+        height: 77vh;
+    }
+}
+/* @media (min-width: 576px) { 
+   .carousel-caption {
+        bottom: 6.25rem;
+    }
+ } */
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {    }
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {     }
+
+/* // X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {  .carousel-caption {
+    bottom: 11.25rem;
+}
+.carousel-caption p{
+    font-size: 2.25rem;
+      color: #494c4d;
+}
+.carousel-caption .h5, h5{
+    color: #0d6785;
+    font-family: 'Nanum Myeongjo', serif;
+    font-size: 1.25rem;
+    font-weight: bold;
+  }
+  .slide2{
+    margin-left:  495px;
+}
+.slide3{
+    margin-left:  -290px;
+}
+.btn{
+    font-weight: 400;
+}
+.container{
+    margin-left: 58px;
+} 
+.carousel-item img{
+    width: 100%;
+    height: 93vh;
+}
+.btn-outline-primary{
+    border-color: #0d6785;
+    color: #0d6785;
+    font-family:  'Dosis', sans-serif;
+    font-weight: bold;
+}
+
+.btn-outline-secondry{
+    border-color: #494c4d;
+    color: #494c4d;
+    font-family:  'Dosis', sans-serif;
+    font-weight: bold;
+        
+}
+
+ }
+
+/* // XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) {  }

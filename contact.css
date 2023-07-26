@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Butterfly+Kids&family=Fuzzy+Bubbles:wght@700&family=Nanum+Myeongjo&family=Rubik+Bubbles&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Nanum Myeongjo', serif;
+}
+.container{
+    width: 1000px !important;
+}
+p{
+    font-size: 14px;
+}
+.form-control{
+    height: 36px;
+    background-color: #fff;
+    color:#0d6785;
+    font-size: 14px;
+    border-radius: 2px;
+    box-shadow: none !important;
+    border: 1px solid #0d6785;
+}
+.contactForm .form-control{
+    border: none;
+    border-bottom: 1px solid #0d6785;
+    padding: 0;
+}
+.btn-outline-primary{
+    border-color: #0d6785;
+    width: 100px;
+    border-radius: 0 !important;
+}
+.bi{
+    font-size: 22px;
+    margin-top: 18px;
+}
+.form-label{
+    color: #0d6785;
+    font-family: 'Dosis', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+
+}
+.heading{
+    color: #0d6785;
+    font-family: 'Nanum Myeongjo', serif;
+    font-weight: bold;
+    
+}
